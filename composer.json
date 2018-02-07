@@ -1,0 +1,19 @@
+{
+    "name": "pallares/laravel-nuxt",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pallares\\LaravelNuxt\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pallares\\LaravelNuxt\\LaravelNuxtServiceProvider"
+            ]
+        }
+    }
+}
