@@ -24,10 +24,10 @@ You need to add a fallback route that will render the SPA page in `routes/web.ph
 
 ```php
 // ...
-
 // Add this route the last, so it doesn't interfere with your other routes.
 Route::get(
-  '{uri}', Pallares\LaravelNuxt\Controllers\NuxtController::class
+    '{uri}',
+    '\\'.Pallares\LaravelNuxt\Controllers\NuxtController::class
 )->where('uri', '.*');
 ```
 
