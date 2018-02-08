@@ -1,5 +1,22 @@
 {
     "name": "pallares/laravel-nuxt",
+    "description": "Permission handling for Laravel 5.4 and up",
+    "keywords": [
+        "laravel",
+        "nuxt",
+        "vue",
+        "spa"
+    ],
+    "homepage": "https://github.com/skyrpex/laravel-nuxt",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Pallarés",
+            "email": "cristian@pallares.io",
+            "homepage": "https://pallares.io",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=7.0.0",
         "laravel/framework": "5.5.*"
