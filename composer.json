@@ -1,6 +1,6 @@
 {
     "name": "pallares/laravel-nuxt",
-    "description": "Permission handling for Laravel 5.4 and up",
+    "description": "Build a SPA with Laravel and Nuxt",
     "keywords": [
         "laravel",
         "nuxt",
