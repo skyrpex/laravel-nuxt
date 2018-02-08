@@ -3,14 +3,15 @@
 namespace Pallares\LaravelNuxt\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 
-class NuxtController
+class NuxtController extends Controller
 {
     public function __invoke(Request $request)
     {
         // If the request expects JSON, it means that
         // someone sent a request to an invalid route.
-        if ($request->expectsJson()) {
+        if (($request->ajax() && ! $request->pjax()) || $request->wantsJson()) {
             abort(404);
         }
 
