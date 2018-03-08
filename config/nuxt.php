@@ -8,6 +8,6 @@ return [
      * In development, the SPA page will be on an external server. This
      * page will be passed as an environment variable (NUXT_URL).
      */
-    'page' => env('NUXT_URL', public_path('_nuxt/index.html')),
+    'page' => env('NUXT_URL', storage_path('app/nuxt/index.html')),
 
 ];
